@@ -77,7 +77,9 @@ telegram: @itsadeadh2
     }
 
     function thegame() {
-            terminal.append(`Yes, you lost. I lost, everybody lost.
+            terminal.append(`<a href="https://en.wikipedia.org/wiki/The_Game_(mind_game)" target="_blank">The Game</a> is a mind game that everybody plays.
+The amount of people that has lost the game in this terminal is currently: *WIP*
+And I just lost it again.
 `);
     }
     // END COMMANDS
