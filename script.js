@@ -36,40 +36,49 @@ thegame: you lost
     function about() {
         terminal.append(`Hello.
 My name is Thiago Barbosa and I'm a JavaScript Back-End developer!
-I currently live in the Nothern area of Brazil and work as an NodeJS developer creating all sorts of stuff 
+I currently work in the nother area of Brazil developing API's for ROVEMA.
+I love the NodeJs environment and have been working with it since 2017.
+I also have experience with Python and C# altough I haven't worked with them in a while.
 `)
     }
 
     function docker() {
-        terminal.append(`docker projects:
+        terminal.append(`Docker projects:
+
+<a href="https://github.com/itsadeadh2/ecr-deployer" target="_blank">ecr-deployer</a>: A simple docker in docker image pre-configured with the necessary tools to push images to ecr.
+
 `)
     }
 
     function node() {
-        terminal.append(`node projects:
+        terminal.append(`NodeJs projects:
+
+<a href="https://github.com/itsadeadh2/Marcellus" target="_blank">Marcellus</a>: Create nodejs/express apis and routes with a simple command!
+
+<a href="https://github.com/itsadeadh2/IkarosBot" target="_blank">IkarosBot</a>: Twitch bot that allows followers to type GTA cheats during gameplay.
+
+<a href="https://github.com/itsadeadh2/vanilla_the_cat" target="_blank">Vanilla The Cat</a>: Receive gitlab notifications in Telegram!
+
 `)
     }
 
     function gamedev() {
-        terminal.append(`gamedev projects:
+        terminal.append(`To see some of my work as an aspiring gamedev access my <a href="https://itsadeadh2.itch.io/" target="_blank">itch.io</a> page!
 `)
     }
 
     function contact() {
-        terminal.append(`contact info:
+        terminal.append(`Contact info:
+e-mail: itsadeadh2@gmail.com
+phone: +55 (69) 99221-9034
+twitter: @itsadeadh2
+telegram: @itsadeadh2
 `)
     }
 
-    function fortune() {
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', 'https://cdn.rawgit.com/bmc/fortunes/master/fortunes', false);
-            xhr.send(null);
-
-            if (xhr.status === 200) {
-                    var fortunes = xhr.responseText.split("%");
-                    var fortune = fortunes[getRandomInt(0, fortunes.length)].trim();
-                    terminal.append(fortune + "\n");
-            }
+    function thegame() {
+            terminal.append(`Yes, you lost. I lost, everybody lost.
+`);
     }
     // END COMMANDS
 
@@ -100,6 +109,12 @@ I currently live in the Nothern area of Brazil and work as an NodeJS developer c
             },  {
                     "name": "contact",
                     "function": contact
+            }, {
+                    "name": "about",
+                    "function": about
+            }, {
+                    "name": "thegame",
+                    "function": thegame
             }, {
                     "name": "echo",
                     "function": echo

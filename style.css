@@ -3,6 +3,10 @@ html, body {
   overflow: hidden;
 }
 
+a {
+  color: red;
+}
+
 body {  
   background: rgb(62, 29, 122);
   background-image: -webkit-radial-gradient(
@@ -61,7 +65,7 @@ textarea, input, button {
 }
 
 .window {
-  width: 640px;
+  width: 740px;
 }
 
 .window .handle {
