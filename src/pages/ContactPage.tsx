@@ -36,12 +36,12 @@ function ContactPage() {
             ),
             (
                 <TerminalRow rowNumber={4}>
-                    <LinkMessage link={'https://api.whatsapp.com/send?phone=5569992219034'} text={'personal whatsapp'}/>
+                    <LinkMessage link={'https://api.whatsapp.com/send?phone=5569992219034'} text={'whatsapp'}/>
                 </TerminalRow>
             ),
             (
                 <TerminalRow rowNumber={5}>
-                    <LinkMessage link={'mailto:itsadeadh2@gmail.com'} text={'personal e-mail'}/>
+                    <LinkMessage link={'mailto:itsadeadh2@gmail.com'} text={'e-mail'}/>
                 </TerminalRow>
             ),(
                 <TerminalRow rowNumber={5}>

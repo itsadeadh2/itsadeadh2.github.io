@@ -17,8 +17,8 @@ function AboutPage() {
                     <span className="w-full">
                         # My name is <span className="text-white">Thiago Barbosa, </span>
                         I am {currentAge} years old, live In Brazil
-                        and I work as senior software developer
-                        with around <span className="text-white">{experienceYears} years</span> of experience.
+                        and I have been working as senior software developer
+                        for the past <span className="text-white">{experienceYears} years</span> of experience.
                         I am also a husband for a beautiful woman called <span className="text-pink-400 italic">Bruna</span> and dad to the brightest spot in my sky: my daughter <span className="text-yellow-400 italic">Luna</span>.
                     </span>
                 </TerminalRow>
@@ -46,7 +46,6 @@ function AboutPage() {
                     <span className="w-full">
                         design/architecture of high-availability systems <br/>
                         containerization <br/>
-                        event driven systems<br/>
                         microservices<br/>
                         TDD (Test Driven Development) <br/>
                         refactoring and maintaining large codebases <br/>
@@ -59,7 +58,7 @@ function AboutPage() {
                     <span className="w-full">
                         # I like to play video games, create pet projects like this one,
                         configure emulators to barely play, build mini-itx pc's, develop small games, and whenever I'm bored
-                        I watch <LinkMessage link={'ff'} text="the best show in the world"/>
+                        I watch <LinkMessage link={'https://www.imdb.com/title/tt0118375/'} text="the best show in the world"/>
                     </span>
                 </TerminalRow>
             ), (
