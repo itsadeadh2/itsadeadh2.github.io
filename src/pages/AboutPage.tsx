@@ -34,7 +34,7 @@ function AboutPage() {
                 <TerminalRow rowNumber={3} className={rowsClass}>
                     <p className="text-white">which technologies do you use?</p>
                     <span className="w-full">
-                        languages {'->'} Python, JavaScript, TypeScript, Go <br/>
+                        languages {'->'} Python, JavaScript, TypeScript <br/>
                         backend {'->'} Flask, Django, Express <br/>
                         frontend {'->'} React, Angular2, Vue <br/>
                         devops {'->'} AWS, Docker, CI/CD, IaC <br/>
@@ -52,8 +52,15 @@ function AboutPage() {
                         proficient in english <br/>
                     </span>
                 </TerminalRow>
-            ), (
-                <TerminalRow rowNumber={4} className={rowsClass}>
+            ),(
+            <TerminalRow rowNumber={5} className={rowsClass}>
+              <p className="text-white">what are you learning?</p>
+              <span className="w-full">
+                        # at the moment I'm focused on learning go, event-driven architecture and terraform.
+                    </span>
+            </TerminalRow>
+            ),(
+                <TerminalRow rowNumber={6} className={rowsClass}>
                     <p className="text-white">do you have any hobbies?</p>
                     <span className="w-full">
                         # I like to play video games, create pet projects like this one,
@@ -62,7 +69,7 @@ function AboutPage() {
                     </span>
                 </TerminalRow>
             ), (
-                <TerminalRow rowNumber={4} className={rowsClass}>
+                <TerminalRow rowNumber={7} className={rowsClass}>
                     <p className="text-white">are you available to work?</p>
                     <span className="w-full">
                         <Link to={'/'}>
