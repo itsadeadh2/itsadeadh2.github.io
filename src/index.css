@@ -1025,3 +1025,13 @@ img,video {
     opacity: 0;
     pointer-events: none;
 }
+
+.footer-note {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 5px 10px;
+    z-index: 1000;
+}
