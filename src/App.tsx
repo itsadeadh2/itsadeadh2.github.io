@@ -14,7 +14,7 @@ function App() {
         <Callout>
             <div className="flex items-center gap-2 absolute left-1/2 -translate-x-1/2 whitespace-nowrap">
                 <a href="https://www.linkedin.com/in/barbosathiagodev/" target={"_blank"} rel={"noreferrer"}>
-                    i'm currently #opentowork, click here to hire me
+                    i'm currently #opentowork
                 </a>
             </div>
             <button onClick={() => setShowCallout(false)} className="h-full ml-auto px-4 text-gray-11 hover:text-[#EFF7FFCC] focus:text-[#EFF7FFCC] active:text-gray-12 hover:bg-highlight-1 active:bg-highlight-2 focus:bg-highlight-1 focus:outline-none">esc</button>
