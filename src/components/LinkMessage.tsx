@@ -9,7 +9,7 @@ interface LinkProps {
 const LinkMessage: React.FC<LinkProps> = ({text, link}) => {
     return (
         <a
-            className="text-gray-400 leading-10 flex gap-2 flex-wrap italic"
+            className="text-emerald-500 leading-10 flex gap-2 flex-wrap italic"
             target={"_blank"}
             rel={"noreferrer"}
             href={link}>{text}

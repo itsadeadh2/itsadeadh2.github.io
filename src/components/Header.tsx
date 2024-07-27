@@ -33,9 +33,9 @@ function Header() {
         )
     })
     return (
-        <header className="h-10 border-b flex items-stretch bg-gray-1">
-            <div className="px-6 border-r flex items-center">itsadev</div>
-            <nav className="flex w-full divide-x">
+        <header className="h-10 flex items-stretch border-t-2 border-zinc-950 bg-gray-800 fixed bottom-0 w-full">
+            <div className="px-6 flex items-center">itsadev</div>
+            <nav className="flex w-full">
                 {renderedLinks}
             </nav>
         </header>

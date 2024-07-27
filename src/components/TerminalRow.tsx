@@ -17,7 +17,7 @@ const TerminalRow: React.FC<RowProps> = ({
                                              ...rest
 }) =>{
     const rowClasses = classNames(
-        "group flex items-center text-gray-10 hover:bg-gray-5 px-6 active:border-orange active:border-l-2 active:pl-[22px] active:text-gray-11 active:bg-gray-6 focus:border-orange focus:border-l-2 focus:pl-[22px] focus:text-gray-11 focus:bg-gray-6 focus:outline-none has-[:focus]:border-orange has-[:focus]:border-l-2 has-[:focus]:pl-[22px] has-[:focus]:text-gray-11 has-[:focus]:bg-gray-6 has-[:focus]:outline-none", {
+        "group flex items-center text-gray-10 hover:bg-gray-5 px-6 active:border-emerald-500 active:border-l-2 active:pl-[22px] active:text-gray-11 active:bg-gray-6 focus:border-emerald-500 focus:border-l-2 focus:pl-[22px] focus:text-gray-11 focus:bg-gray-6 focus:outline-none has-[:focus]:border-emerald-500 has-[:focus]:border-l-2 has-[:focus]:pl-[22px] has-[:focus]:text-gray-11 has-[:focus]:bg-gray-6 has-[:focus]:outline-none", {
             '!bg-green-5': rest.success,
             '!bg-red-5': rest.failure,
             '!bg-blue-5': rest.attention

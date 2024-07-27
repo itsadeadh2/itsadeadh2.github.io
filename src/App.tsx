@@ -23,7 +23,6 @@ function App() {
     return (
         <div>
             {showCallout && callout_content}
-            <Header/>
             <Routes>
                 <Route path="/" element={<ContactPage/>}/>
                 <Route path="/about" element={<AboutPage/>}/>
@@ -31,8 +30,7 @@ function App() {
                 <Route path="/games" element={<GamesPage/>}/>
                 <Route path="/readme" element={<ReadmePage/>}/>
             </Routes>
-            <span className="text-gray-400 italic text-xs fixed bottom-2 left-1/2 transform -translate-x-1/2 px-2 py-1 z-50"> this project was based off terminal.shop check it out <a
-                href="https://www.terminal.shop/" className="text-white">here</a></span>
+            <Header/>
         </div>
     )
 }

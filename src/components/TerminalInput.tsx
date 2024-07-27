@@ -29,7 +29,7 @@ const TerminalInput: React.FC<InputProps> = ({ inputRef, inputText, executing, o
             >
                 {inputText}
             </div>
-            <div className="hidden group-has-[:focus]/input:block bg-orange w-[10px] h-[21px] shrink-0 animate-blink">
+            <div className="hidden group-has-[:focus]/input:block bg-white w-[10px] h-[21px] shrink-0 animate-blink">
             </div>
             <input
                 type="text"

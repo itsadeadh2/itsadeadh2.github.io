@@ -7,7 +7,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const Button: React.FC<ButtonProps> = ({ children, active, className,  ...rest }) => {
     const buttonClasses = classNames(
-        'text-gray-11 h-full focus:bg-gray-6 focus:outline-none hover:bg-gray-5 active:bg-gray-6 px-4 flex items-center last:!border-r',
+        'text-gray-11 h-full focus:bg-gray-6 focus:outline-none hover:bg-gray-5 active:bg-gray-6 px-4 flex items-center',
         className,
         active ? '!text-white': null
     );
